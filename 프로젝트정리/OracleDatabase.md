@@ -8,6 +8,8 @@
    - 설치 경로 데베이름 비밀번호 설정 
 
 2. 사용자 생성 
+
+
 3. CREATE USER myuser IDENTIFIED BY mypassword;
    GRANT CONNECT, RESOURCE TO myuser;
 
