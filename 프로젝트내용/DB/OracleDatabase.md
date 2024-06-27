@@ -10,6 +10,6 @@
 2. 사용자 생성 
 
 
-3. CREATE USER myuser IDENTIFIED BY mypassword;
+3. CREATE USER myuser IDENTIFIED BY myuserPassword;
    GRANT CONNECT, RESOURCE TO myuser;
 

@@ -4,16 +4,16 @@ public class User {
 
     private final Long userId;
     private final String userName;
-    private final Long email;
-    private final Long password;
-    private final Long joinDate;
+    private final Long userEmail;
+    private final Long userPassword;
+    private final Long userJoinDate;
 
-    public User(final Long userId, final String userName, final Long email, final Long password, final Long joinDate) {
+    public User(final Long userId, final String userName, final Long userEmail, final Long userPassword, final Long userJoinDate) {
         this.userId = userId;
         this.userName = userName;
-        this.email = email;
-        this.password = password;
-        this.joinDate = joinDate;
+        this.userEmail = userEmail;
+        this.userPassword = userPassword;
+        this.userJoinDate = userJoinDate;
     }
 
     public Long getUserId() {
@@ -24,15 +24,15 @@ public class User {
         return userName;
     }
 
-    public Long getEmail() {
-        return email;
+    public Long getuserEmail() {
+        return userEmail;
     }
 
-    public Long getPassword() {
-        return password;
+    public Long getuserPassword() {
+        return userPassword;
     }
 
-    public Long getJoinDate() {
-        return joinDate;
+    public Long getuserJoinDate() {
+        return userJoinDate;
     }
 }
